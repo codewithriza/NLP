@@ -44,7 +44,6 @@ msgpack-numpy==0.4.8
 nltk==3.7
 numpy==1.19.5
 oauthlib==3.2.1
-opencv-contrib-python==3.4.2.17
 opt-einsum==3.3.0
 packaging==21.3
 pandas==1.1.5
