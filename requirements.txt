@@ -1,4 +1,4 @@
-streamlit==1.27.0
+streamlit==1.0.0
 absl-py==1.2.0
 apiclient==1.0.4
 asgiref==3.2.10
