@@ -24,7 +24,7 @@ def main():
 
     if choice == "Home":
         st.subheader("Please enter your emotions as a text below")
-        st.caption('Created by: Riza Mohamed')
+        st.caption('Created by: Riza Mohamed')[https://www.linkedin.com/in/codewithriza/]
 
         with st.form(key='emotion_clf_form'):
             raw_text = st.text_area("Please enter your text")
