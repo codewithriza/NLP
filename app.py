@@ -23,7 +23,7 @@ def main():
     choice=st.sidebar.selectbox("Menu",menu)
 
     if choice == "Home":
-        st.subheader("Home-Emotion in text")
+        st.subheader("Please enter your emotions as a text below")
 
         with st.form(key='emotion_clf_form'):
             raw_text = st.text_area("Please enter your text")
