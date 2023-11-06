@@ -19,7 +19,7 @@ emotions_emoji_dict = {"anger":"😠","disgust":"🤮", "fear":"😨😱", "happ
 
 def main():
     st.title('Emotion Classifier App')
-    menu=["Home", "Monitor", "About"]
+    menu=["Home", "About"]
     choice=st.sidebar.selectbox("Menu",menu)
 
     if choice == "Home":
@@ -57,7 +57,7 @@ def main():
 
     else:
         st.subheader("About")
-        st.write("xperience our emotion-predicting webapp at, powered by NLP with 70% accuracy. We harnessed Python's might with Numpy, Pandas, Seaborn, and more, and Streamlit for the front-end. Our Linear Regression model from Scikit-learn deciphers emotions from speeches, while Joblib keeps the model handy on the website. If you have any questions, email us at codewithriza@gmail.com")
+        st.write("eperience our emotion-predicting webapp, powered by NLP with 70% accuracy. We harnessed Python's might with Numpy, Pandas, Seaborn, and more, and Streamlit for the front-end. Our Linear Regression model from Scikit-learn deciphers emotions from speeches, while Joblib keeps the model handy on the website. If you have any questions, email us at codewithriza@gmail.com")
         st.caption('Created by: Riza Mohamed')
 
 if __name__ == "__main__":
