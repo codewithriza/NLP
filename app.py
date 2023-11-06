@@ -55,8 +55,6 @@ def main():
             st.altair_chart(fig,use_container_width=True)
                 
 
-    elif choice == "Monitor":
-        st.subheader("Monitor App")
     else:
         st.subheader("About")
         st.write("xperience our emotion-predicting webapp at, powered by NLP with 70% accuracy. We harnessed Python's might with Numpy, Pandas, Seaborn, and more, and Streamlit for the front-end. Our Linear Regression model from Scikit-learn deciphers emotions from speeches, while Joblib keeps the model handy on the website. If you have any questions, email us at codewithriza@gmail.com")
